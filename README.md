@@ -1,7 +1,7 @@
 # BudgetBuddy: Simple Financial Clarity
 
 ## Overview
-The Personal Finance Tracker and Insights Platform is a comprehensive web application designed to help individuals manage their finances more effectively. Users can track their income, expenses, investments, and budget in one place, leveraging the app to gain valuable insights into their financial health and make informed decisions.
+BudgetBuddy is a comprehensive web application designed to help individuals manage their finances more effectively. Users can track their income, expenses, investments, and budget in one place, leveraging the app to gain valuable insights into their financial health and make informed decisions.
 
 ## Features
 - **Expense Tracking:** Log and categorize daily expenses to keep an eye on spending habits.
