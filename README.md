@@ -25,7 +25,7 @@ Ensure you have Node.js and MongoDB installed on your system. Node.js will serve
 ### Installation
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/personal-finance-tracker.git
+   git clone https://github.com/4acle/BudgetBuddy.git
    ```
 2. **Install NPM packages for the backend**
    ```sh
