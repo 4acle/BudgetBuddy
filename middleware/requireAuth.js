@@ -9,7 +9,7 @@ const requireAuth = (req, res, next) => {
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = decoded.userId;
+    req.userId = decoded.userId;
     next();
   } catch (ex) {
     res.status(400).send("Invalid token.");
