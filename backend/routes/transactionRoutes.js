@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const requireAuth = require('../middleware/requireAuth');
-const Transaction = require('../backend/models/Transaction');
+const Transaction = require('../models/Transaction');
 
 router.use(requireAuth);
 

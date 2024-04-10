@@ -1,10 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
-const authRoutes = require('./routes/auth');
-const protectedRoutes = require('./routes/protectedRoutes');
-const userRoutes = require('./routes/userRoutes');
-const transactionRoutes = require('./routes/transactionRoutes');
+const authRoutes = require('./backend/routes/auth');
+const protectedRoutes = require('./backend/routes/protectedRoutes');
+const userRoutes = require('./backend/routes/userRoutes');
+const transactionRoutes = require('./backend/routes/transactionRoutes');
 const app = express();
 
 // Middleware for parsing JSON bodies
