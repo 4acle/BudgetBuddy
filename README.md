@@ -20,34 +20,69 @@ BudgetBuddy is a comprehensive web application designed to help individuals mana
 ## Getting Started
 
 ### Prerequisites
-Ensure you have Node.js and MongoDB installed on your system. Node.js will serve as the runtime environment, while MongoDB will be used for data storage.
+- Node.js (v14.0.0 or higher)
+- MongoDB (v4.4.0 or higher)
+- npm (v6.0.0 or higher)
 
 ### Installation
 1. **Clone the repository**
    ```sh
    git clone https://github.com/4acle/BudgetBuddy.git
+   cd BudgetBuddy
    ```
-2. **Install NPM packages for the backend**
+
+2. **Install Dependencies**
    ```sh
+   # Install backend dependencies
    cd backend
    npm install
-   ```
-3. **Install NPM packages for the frontend**
-   ```sh
-   cd frontend
+
+   # Install frontend dependencies
+   cd ../frontend
    npm install
    ```
-4. **Start the backend server**
-   ```sh
-   npm start
+
+3. **Environment Setup**
+   Create a `.env` file in the backend directory with the following variables:
+   ```env
+   PORT=5000
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
    ```
-5. **Run the frontend application**
+
+4. **Start the Application**
    ```sh
+   # Start backend server (from backend directory)
+   npm start
+
+   # Start frontend application (from frontend directory)
    npm start
    ```
 
 ## Usage
 After installation, navigate to `http://localhost:3000` in your web browser to start tracking your finances. Begin by creating an account or logging in, then proceed to enter your income, expenses, and set up budgets.
 
+### Key Features in Detail
+1. **Dashboard Overview**
+   - View your financial summary
+   - Track spending trends
+   - Monitor budget progress
+
+2. **Transaction Management**
+   - Add new transactions
+   - Categorize expenses
+   - Set recurring transactions
+
+3. **Budget Planning**
+   - Create monthly budgets
+   - Set category limits
+   - Receive alerts for overspending
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+For any questions or suggestions, please open an issue in the GitHub repository.
